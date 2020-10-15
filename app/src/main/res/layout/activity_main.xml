@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="24dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/heading"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="30dp"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="40dp"
+        android:id="@+id/email"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="course"
+        android:textSize="18dp"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="40dp"
+        android:id="@+id/course"
+        />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/name"
+        android:hint="add sdsvs" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/e1"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/email"
+        android:hint="davadsca5@gmail.com" />
+
+    <EditText
+        android:id="@+id/editcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editemail"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/course"
+        android:hint="MBA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:id="@+id/btn1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/editcourse"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btn2"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/btn1"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/editcourse"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textSize="16dp"
+        android:id="@+id/name2"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textSize="16dp"
+        android:id="@+id/email2"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textSize="16dp"
+        android:id="@+id/course2"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
